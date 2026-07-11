@@ -2,111 +2,114 @@
 👤 **Name:** Shreya jha
 
 
-📖 Overview
+**📖 Overview**
 
-Is assignment ka main goal AWS ke core services ko practically use karna tha, jaise:
+The objective of this assignment is to understand and implement core AWS cloud services, including compute and storage. The tasks involve working with Amazon EC2 for server deployment and Amazon S3 for storage and static website hosting.
 
-Amazon EC2 (server launch karna)
-Web server setup karna
-Amazon S3 (storage & hosting)
-Static website deploy karna
+These activities help in gaining practical knowledge of real-world cloud deployment.
 
-Yeh sab tasks real-world cloud deployment ko samajhne ke liye important hain.
+**🎯 Objectives**
 
-🎯 Objectives
+The following tasks were performed in this assignment:
 
-Is assignment me humne yeh tasks perform kiye:
+Launch and connect to an EC2 Ubuntu instance
+Install and configure a web server
+Create an S3 bucket and upload files
+Host a static website using S3
+Configure bucket policy for public access
 
-EC2 instance launch karna
-Web server install & configure karna
-S3 bucket create karna
-Static website host karna
-Public access ke liye bucket policy set karna
-🧠 Concepts Covered
-Cloud Computing basics
+**🧠 Concepts Covered**
+
+Cloud Computing Basics
 Amazon EC2 (Elastic Compute Cloud)
-SSH connection
-Web server (Apache/Nginx)
-Amazon S3
+SSH Connectivity
+Web Server Configuration (Apache/Nginx)
+Amazon S3 Storage
 Static Website Hosting
-Bucket Policies & Permissions
-⚙️ Step-by-Step Implementation
+Bucket Policies and Permissions
+
+**⚙️ Implementation Steps**
+
 🚀 1. Launch EC2 Instance
-AWS Console open kiya
-EC2 service select ki
-Ubuntu server launch kiya
-Key pair create/download kiya
+Opened AWS Management Console
+Selected EC2 service
+Launched an Ubuntu instance
+Configured instance settings
 
-👉 Purpose:
-EC2 ek virtual server hai jahan hum apni website run karte hain.
+Purpose:
+EC2 provides virtual servers to run applications and websites.
 
-🔐 2. Connect to EC2 (SSH)
-SSH ka use karke EC2 instance se connect kiya
-Private key aur public IP ka use hua
+🔐 2. Connect to EC2
+Connected to the instance using SSH
+Used key pair and public IP
 
-👉 Purpose:
-Remote server ko securely access karne ke liye SSH use hota hai.
+Purpose:
+SSH allows secure remote access to the server.
 
 🌐 3. Install Web Server
-Apache ya Nginx install kiya
-Server start kiya
-Browser me public IP open karke test kiya
+Installed Apache/Nginx
+Started the server
+Verified using browser
 
-👉 Purpose:
-Web server website ko internet par serve karta hai.
+Purpose:
+A web server is used to host and serve web pages.
 
 📁 4. Create S3 Bucket
-S3 service open ki
-New bucket create ki
-Unique name diya
+Opened S3 service
+Created a new bucket
+Provided a unique bucket name
 
-👉 Purpose:
-S3 ek storage service hai jahan static files store hoti hain.
+Purpose:
+S3 is used for storing and managing data in the cloud.
 
 🌍 5. Upload Website Files
-HTML/CSS files upload ki
-Index file set ki
+Uploaded HTML and CSS files
+Set index file
 
-👉 Purpose:
-Website ka content S3 me store hota hai.
+Purpose:
+Website files are stored in S3 for hosting.
 
 🌐 6. Enable Static Website Hosting
-Bucket properties me jaakar
-Static website hosting enable ki
-Index document set kiya
+Enabled static website hosting
+Defined index document
 
-👉 Purpose:
-S3 ko ek web hosting server me convert karta hai.
+Purpose:
+Allows S3 to host static websites.
 
 🔓 7. Configure Bucket Policy
-Public access ke liye permissions di
-Files ko public readable banaya
+Allowed public access permissions
+Made files publicly accessible
 
-👉 Purpose:
-Users ko website access dene ke liye permissions zaroori hoti hain.
+Purpose:
+Required for users to access the hosted website.
 
-🌟 Mini Project
+**🌟 Mini Project**
 
 Deploy a Static Portfolio Website on AWS
 
-Simple portfolio website banayi (HTML/CSS)
-S3 bucket pe host ki
-(Optional) CloudFront CDN use kiya
-📊 Learning Outcomes
+Created a simple HTML/CSS portfolio
+Hosted it on S3
+(Optional) Used CloudFront for content delivery
 
-Is assignment ke baad mujhe yeh samajh aaya:
+**📊 Learning Outcomes**
 
-EC2 instance kaise launch aur manage karte hain
-Server pe web hosting kaise hoti hai
-S3 se static website kaise host karte hain
-Cloud deployment ka real workflow kya hota hai
-🛠️ Tools & Services Used
+Learned how to launch and manage EC2 instances
+Understood web server setup and deployment
+Gained knowledge of S3 storage and hosting
+Experienced real-world cloud workflow
+
+**🛠️ Tools & Services Used**
+
 AWS EC2
 AWS S3
 Ubuntu
 Apache / Nginx
 HTML / CSS
-✅ Conclusion
+📂 Project Structure
+EC2-Screenshots/
+S3-Screenshots/
+README.md
 
-Yeh assignment cloud computing ka practical introduction tha.
-Isse mujhe real-world deployment ka experience mila aur AWS services ka workflow clear hua.
+
+**👤 Author**
+Shreya
