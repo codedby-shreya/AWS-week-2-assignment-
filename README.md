@@ -1,5 +1,7 @@
 # AWS-week-2-assignment-
 👤 **Name:** Shreya jha
+
+
 📖 Overview
 
 Is assignment ka main goal AWS ke core services ko practically use karna tha, jaise:
